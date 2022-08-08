@@ -1,7 +1,7 @@
 package com.mycompany.primerospasos;
 import java.util.Scanner;
 
-public class evaluaEdad {
+public class Evalua_Edad {
 
     public static void main(String args[]) {
         Scanner entrada = new Scanner(System.in);

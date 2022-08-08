@@ -1,6 +1,6 @@
 package com.mycompany.primerospasos;
 
-public class manipulaCadenas3 {
+public class Manipula_Cadenas3 {
 
     public static void main(String args[]) {
         String alumno1, alumno2;
