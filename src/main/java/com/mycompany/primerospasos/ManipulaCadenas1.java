@@ -1,7 +1,6 @@
-
 package com.mycompany.primerospasos;
 
-public class manipulaCadenas {
+public class ManipulaCadenas1 {
 
     public static void main(String args[]) {
         String nombre = "Juan";
