@@ -1,7 +1,7 @@
 package com.mycompany.primerospasos;
 import javax.swing.*;
 
-public class entrada_Numeros {
+public class Entrada_Numeros {
 
     public static void main(String args[]) {
         double x=10000.0;

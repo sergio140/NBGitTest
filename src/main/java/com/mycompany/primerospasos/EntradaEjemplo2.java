@@ -1,7 +1,7 @@
 package com.mycompany.primerospasos;
 import javax.swing.*;
 
-public class entradaEjemplo2 {
+public class EntradaEjemplo2 {
 
     public static void main(String args[]) {
         
