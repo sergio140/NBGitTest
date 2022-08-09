@@ -29,7 +29,7 @@ public class Coche {
         return "El color del coche es "+color+".";
     }
     public String dime_asientos(){
-        if (asientos_cuero==true){
+        if (asientos_cuero){
             return "El coche tiene asientos de cuero.";
         }else{
             return "El coche tiene asientos de serie.";
