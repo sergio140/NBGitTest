@@ -24,11 +24,12 @@ public class Pruebas {
 }
 
 class Empleados{
-    private final String nombre; //El nombre de un trabajador no debe ser cambiado == CONSTANTE
-    private String seccion;
+    private final String nombre; //El nombre de un trabajador no debe ser cambiado ==> CONSTANTE
+    private String seccion;  //PRIVATE no se pueden usar fuera de la clase.
     private int Id;
-    private static int Id_siguiente=1;//Id_siguiente se ha puesto en CURSIVA, para identificar que es estática, variable compartida por todos. Tiene que ser pública.
+    private static int Id_siguiente=1;//Id_siguiente se ha puesto en CURSIVA para identificar que es estática, como es static, solo es accesible desde dentro de la clase.
     
+    //CONSTRUCTOR
     public Empleados(String nom){
         
         nombre = nom;
@@ -42,8 +43,8 @@ class Empleados{
         return "El nombre es: "+nombre+", la sección es: "+seccion+" y el ID = "+Id+".";
     }
     
-    public static String dameIdSiguiente(){ //Los metodos estáticos no actuan sobre objetos, pertenecen a la clase
-        return "El Id siguiente será: "+Id_siguiente;
+    public static String dameIdSiguiente(){ //Los metodos estáticos no actuan sobre objetos, pertenecen a la clase, se utiliza como Empleados.dameIdSiguiente
+        return "El Id siguiente será: "+Id_siguiente+".";//solo podremos acceder a variables static, no podríamos acceder a variables que no sean static.
     }
     
     /************METODOS SETTER************/
