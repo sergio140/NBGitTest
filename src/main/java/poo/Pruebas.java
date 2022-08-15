@@ -19,6 +19,7 @@ public class Pruebas {
         System.out.println(empleado2.devuelveDatos());
         System.out.println(empleado3.devuelveDatos());
         System.out.println(empleado4.devuelveDatos());
+        System.out.println(Empleados.dameIdSiguiente());// pertenecen a la clase Empleados, no al objeto (empleado1...)
     }
 }
 
@@ -39,6 +40,10 @@ class Empleados{
     /************METODOS GETTER************/
     public String devuelveDatos(){
         return "El nombre es: "+nombre+", la sección es: "+seccion+" y el ID = "+Id+".";
+    }
+    
+    public static String dameIdSiguiente(){ //Los metodos estáticos no actuan sobre objetos, pertenecen a la clase
+        return "El Id siguiente será: "+Id_siguiente;
     }
     
     /************METODOS SETTER************/
